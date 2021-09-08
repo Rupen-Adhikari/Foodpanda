@@ -1,0 +1,249 @@
+*{
+    margin: 0; padding: 0;box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+body{
+    width: 100%;
+    height: 900px;
+    background-image: url(image/e5e.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+    color: white;    
+}
+nav{
+    width: 100%;
+    height: 12vh;
+    background: rgba(0,0,0, 0.5);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+nav .first{
+    width: 25%;
+    text-align: center;
+    text-transform: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+nav .two{
+    width: 55%;
+    display:flex;
+    justify-content:space-between;
+    text-align:center;
+    color: white;
+}
+nav .two a{
+    width: 25%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.top{
+    width: 80%;
+    height: 70vh;
+    top: 25%;
+    left: 130px;
+    display: flex;
+    position: absolute;
+}
+section h1{
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+section p{
+    font-size: 20px;
+    font-style: playfair/fira sans;
+    font-weight: 800;
+}
+a{
+    width: 120px;
+    height: 30px;
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    font-size: 15px;
+    font-weight: 300;
+    text-decoration: none;
+}
+.btn{
+    background:#00b894;
+    color:honeydew;
+    font-size: 18px;
+}
+.one{
+    background: whitesmoke;
+    text-align: center;
+    top: 150%;
+    margin-top: 700px;
+    color: black;
+    padding: 3px 0;
+}
+.one h3{
+    margin-top: 50px;    
+}
+one h1{
+    font-size: 30px;
+    font-weight: 300;
+}
+.one p{
+    font-size: 18px;
+    
+}
+.chef{
+    display:flex;
+    position:relative; 
+    float: right;  
+    width: 400px;  
+}  
+.hotel{
+    align-items: flex-end;
+    
+}   
+.far{  
+    width: 100%;
+    height: 600px;
+    background-image: url(image/pexels-ray-piedra-1565982.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color:white;
+    text-align: center;
+}
+.container{
+    position: relative;
+    text-align: center;
+    align-items: center;
+    padding: 150px 0;    
+}
+.container h1{
+    font-size: 45px;
+    font-weight: bold 900;
+
+}
+.container p{
+    font-size: 20px;
+}
+.btn1{
+    background:fuchsia;
+    color:honeydew;
+    font-size: 17px;
+    font-weight: bold;
+}
+.menu{
+    width: 100%;
+    height: 220px;
+    color: black;
+    text-align: center;
+    align-items: center;
+    
+}
+.menu h2{
+    font-size: 30px;
+}
+.row{
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    font-size-adjust:unset;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.course{
+    flex-basis: 23%;
+    background: #f7dcdc;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 30px 5px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.course p{
+    font-size: 16px;
+    font-display: bold;
+}
+.course:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0, 0.5);
+}
+.a1{
+    font-size: 23 px;
+    text-align: center;
+    align-items: center;
+}
+.res{
+
+    width: 100%;
+    height: 600px;
+    background-image: url(image/hot.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 250px 0;
+    color:ghostwhite;
+}
+.res h2{
+    font-size: 40px;
+}
+.res p{
+    font-size: 25px;
+}
+.detail{
+    text-align: center;
+    color:black;
+    border: solid 5px white;
+    background-color:#C5CBE3;
+    border-radius: 15px;
+    width: 900px;
+    height: 780px;
+    margin: 0 auto;
+    font-weight: bold;
+    padding-top: 20px;
+    font-size: 20px;
+    
+}
+.detail p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    padding-right: 250px;
+    font-size: 18px;
+}
+.in{
+    width: 300px;
+    height: 27px;
+}
+.submit{
+    background:#00b894;
+    color: white;
+    font-size: 18px;
+    padding:0 25 0 25;
+}
+.about{
+    width: 100%;
+    height: 600px;
+    background-image:   url(image/pexels-bruno-maceiras-2467558.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 150px 0;    
+}
+.about h3{
+    font-size: 40px;
+    font-weight: bold 900;
+}
+.about p{
+    font-size: 20px;
+}
+.about h4{
+    font-size: 30px;
+}
+
+
